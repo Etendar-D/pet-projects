@@ -37,7 +37,23 @@ lbl_mid3 = tkinter.Label(
     main_window,
     text="Введите адресата Вашего сообщения:"
 )
+lbl_mid3.place(relx=0.02, rely=0.4)
 
+adrs = tkinter.Entry(main_window, width=50)
+adrs.place(relx=0.3, rely=0.404)
+adresat = adrs.get()
+
+lbl_hdr = tkinter.Label(
+    main_window,
+    text="Введите заголовок сообщения:"
+)
+lbl_hdr.place(relx=0.02, rely=0.5)
+
+hdr = tkinter.Entry(main_window, width=50)
+hdr.place(relx=0.32, rely=0.503)
+header = hdr.get()
+
+txt_field = tkinter.Text(main_window, )
 
 main_window.mainloop()
 
